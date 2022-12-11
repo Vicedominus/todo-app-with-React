@@ -1,0 +1,30 @@
+.task-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 5px 10px;
+    box-shadow: 1px 1px 5px black;
+    padding: 5px;
+}
+
+.task-title p {
+    cursor: pointer;
+}
+
+.icon-container {
+    display: flex;
+    cursor: pointer;
+    align-items: center;
+}
+
+.icon {  
+    font-size: 25px;
+}
+
+.completed {
+    text-decoration: line-through;
+    text-decoration-color: #61DBFB;
+    text-decoration-thickness: 1px;
+    text-decoration-style: solid;
+    box-shadow: 1px 1px 5px #61DBFB;
+}

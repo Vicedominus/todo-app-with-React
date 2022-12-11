@@ -1,0 +1,35 @@
+.form-container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: start;
+    margin: 5px 10px;
+    padding: 0px;
+}
+
+.form-container input {
+    height: 30px;
+    width: 300px;
+    margin: 0;
+    padding: 10px;
+    background-color: black;
+    color: #61DBFB;
+    border-color: black;
+    outline: none;
+}
+
+.form-container button {
+    height: 30px;
+    width: 55px;
+    color: black;
+    background-color: #61DBFB;
+    font-size: 15px;
+    font-weight: 600;
+    cursor: pointer;
+    border-radius: 0 10px 10px 0;
+}
+
+.form-container button:hover {
+    scale: 1.1;
+}
+
